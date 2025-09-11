@@ -91,7 +91,7 @@ header {
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(26, 86, 219, 0.8), rgba(14, 58, 146, 0.8)), 
-                url('https://placehold.co/1200x600') center/cover no-repeat;
+                url('bg.png') center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 80px 0;
@@ -271,7 +271,7 @@ section {
 }
 
 .map img {
-    width: 100%;
+    width: 100%;border: 3px solid #2196F3;
     border-radius: 10px;
 }
 
@@ -668,4 +668,4 @@ footer {
     .jurusan-icon i {
         font-size: 2rem;
     }
-}
+    }
