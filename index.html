@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMA Negeri 3 Cirebon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="Logo SMA Negeri 3 Cirebon">
+                    <div class="logo-text">
+                        <h1>SMA Negeri 3 Cirebon</h1>
+                        <span>Sekolah Unggulan Berprestasi</span>
+                    </div>
+                </div>
+                
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#profil">Profil</a></li>
+                        <li><a href="visi misi.html">Visi Misi</a></li>
+                        <li><a href="jurusan & eskul.html">Jurusan & Eskul</a></li>
+                    </ul>
+                    <button class="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="beranda">
+        <div class="container">
+            <h2>Selamat Datang di SMA Negeri 3 Cirebon</h2>
+            <p>Mewujudkan Generasi Unggul, Berkarakter, dan Berprestasi</p>
+            <div class="hero-buttons">
+                <a href="#program" class="btn btn-primary">Program Kami</a>
+                <a href="#profil" class="btn btn-secondary">Tentang Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile container" id="profil">
+        <h2 class="section-title">Profil Sekolah</h2>
+        <div class="profile-content">
+            <div class="profile-text">
+                <p>SSMA Negeri 3 Cirebon merupakan salah satu sekolah menengah atas terbaik di Kota Cirebon yang telah berkiprah sejak tahun 1980. Kami berkomitmen untuk memberikan pendidikan berkualitas tinggi dengan fasilitas modern dan tenaga pengajar profesional.</p>
+                <div class="profile-stats">
+                    <div class="stat">
+                        <h3>1,200+</h3>
+                        <p>Siswa Aktif</p>
+                    </div>
+                    <div class="stat">
+                        <h3>85</h3>
+                        <p>Guru & Staff</p>
+                    </div>
+                    <div class="stat">
+                        <h3>25+</h3>
+                        <p>Kelas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-image">
+                <img src="download.png" alt="Gedung SMA Negeri 3 Cirebon">
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="program">
+        <div class="container">
+            <h2 class="section-title">Program Unggulan</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <i class="fas fa-science"></i>
+                    <h3>Kelas Sains</h3>
+                    <p>Program khusus untuk pengembangan bakat di bidang sains dan penelitian</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Kelas Bahasa</h3>
+                    <p>Penguasaan bahasa asing dengan metode pembelajaran modern</p>
+                </div>
+                <div class="program-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>IT Club</h3>
+                    <p>Pengembangan skill teknologi informasi dan programming</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact container" id="kontak">
+        <h2 class="section-title">Kontak Kami</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Informasi Kontak</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Jl.Ciremai Raya No.63 Larangan,Kec.harjamukti,Kota Cirebon,Jawa Barat 45141</p>
+                <p><i class="fas fa-phone"></i> 08 kamu nanya</p>
+                <p><i class="fas fa-envelope"></i> mbuh@gmail.tit</p>
+                
+                <div class="social-media">
+                    <h3>Media Sosial</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/smanegeri3cirebon" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sman3cirebon_/" target="_blank"class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="map">
+                <img src="images.png" alt="Peta Lokasi SMA Negeri 3 Cirebon">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 SMA Negeri 3 Cirebon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger menu toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
